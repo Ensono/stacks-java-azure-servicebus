@@ -1,1 +1,1 @@
-# stacks-java-core-azure
+# stacks-java-core-azure-servicebus

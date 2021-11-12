@@ -7,11 +7,11 @@
     <parent>
         <artifactId>stacks-java-module-parent</artifactId>
         <groupId>com.amido</groupId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>0.0.14-main</version>
     </parent>
 
     <artifactId>stacks-azure-servicebus</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>0.0.68-main</version>
     <name>stacks-azure-servicebus</name>
     <description>Core Azure Service Bus components for the Java Stacks solution</description>
 

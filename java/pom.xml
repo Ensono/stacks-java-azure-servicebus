@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.amido.stacks.modules</groupId>
         <artifactId>stacks-modules-parent</artifactId>
-        <version>0.0.18-main</version>
+        <version>0.0.21-main</version>
     </parent>
 
     <artifactId>stacks-azure-servicebus</artifactId>
@@ -16,7 +16,7 @@
     <description>Core Azure Service Bus components for the Java Stacks solution</description>
 
     <properties>
-        <com.amido.stacks-core-messaging.version>0.0.76-main</com.amido.stacks-core-messaging.version>
+        <com.amido.stacks-core-messaging.version>0.0.78-main</com.amido.stacks-core-messaging.version>
     </properties>
 
     <repositories>

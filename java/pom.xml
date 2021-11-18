@@ -16,7 +16,7 @@
     <description>Core Azure Service Bus components for the Java Stacks solution</description>
 
     <properties>
-        <com.amido.stacks-core-messaging.version>0.0.71-groupId-rename</com.amido.stacks-core-messaging.version>
+        <com.amido.stacks-core-messaging.version>0.0.76-main</com.amido.stacks-core-messaging.version>
     </properties>
 
     <repositories>

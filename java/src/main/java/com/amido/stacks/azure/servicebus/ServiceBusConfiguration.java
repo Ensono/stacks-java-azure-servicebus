@@ -1,4 +1,4 @@
-package com.amido.stacks.core.azure.servicebus;
+package com.amido.stacks.azure.servicebus;
 
 import com.azure.messaging.servicebus.ServiceBusClientBuilder;
 import com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusProcessorClientBuilder;

@@ -1,4 +1,4 @@
-package com.amido.stacks.core.azure.servicebus.publisher;
+package com.amido.stacks.azure.servicebus.publisher;
 
 import com.amido.stacks.core.messaging.event.ApplicationEvent;
 import com.amido.stacks.core.messaging.listen.ApplicationEventListener;

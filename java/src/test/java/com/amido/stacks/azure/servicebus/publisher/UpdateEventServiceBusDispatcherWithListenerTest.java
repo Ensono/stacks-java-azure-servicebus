@@ -1,4 +1,4 @@
-package com.amido.stacks.core.azure.servicebus.publisher;
+package com.amido.stacks.azure.servicebus.publisher;
 
 import static org.assertj.core.api.BDDAssertions.then;
 

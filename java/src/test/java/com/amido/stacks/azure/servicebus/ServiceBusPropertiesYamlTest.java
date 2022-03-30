@@ -2,7 +2,6 @@ package com.amido.stacks.azure.servicebus;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.amido.stacks.azure.servicebus.ServiceBusProperties;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

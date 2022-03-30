@@ -1,4 +1,4 @@
-package com.amido.stacks.core.azure.servicebus.listener;
+package com.amido.stacks.azure.servicebus.listener;
 
 import com.amido.stacks.core.messaging.listen.ApplicationEventListener;
 import com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusProcessorClientBuilder;

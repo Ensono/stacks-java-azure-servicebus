@@ -16,39 +16,7 @@
 
     <properties>
         <com.amido.stacks-core-messaging.version>1.0.0</com.amido.stacks-core-messaging.version>
-        <!-- <logback.version>1.2.6</logback.version> -->
     </properties>
-
-    <repositories>
-        <repository>
-            <snapshots/>
-            <id>snapshots</id>
-            <name>default-maven-virtual</name>
-            <url>https://amidostacks.jfrog.io/artifactory/default-maven-virtual</url>
-        </repository>
-    </repositories>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.9.1</version>
-                <executions>
-                    <execution>
-                        <id>attach-javadocs</id>
-                        <goals>
-                            <goal>jar</goal>
-                        </goals>
-                        <configuration> <!-- add this to disable checking -->
-                            <failOnError>false</failOnError>
-                        </configuration>
-                    </execution>
-
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
 
     <dependencies>
         <dependency>

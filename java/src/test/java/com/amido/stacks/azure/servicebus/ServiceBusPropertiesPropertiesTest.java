@@ -1,21 +1,19 @@
-package com.amido.stacks.core.azure.servicebus;
+package com.amido.stacks.azure.servicebus;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import com.amido.stacks.azure.servicebus.ServiceBusProperties;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.boot.test.context.ConfigDataApplicationContextInitializer;
-import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 @ExtendWith(SpringExtension.class)
 @EnableConfigurationProperties(value = ServiceBusProperties.class)
-@ContextConfiguration(initializers = ConfigDataApplicationContextInitializer.class)
-@TestPropertySource("classpath:application.yml")
-public class ServiceBusPropertiesYamlTest {
+@TestPropertySource("classpath:azure.servicebus.properties")
+public class ServiceBusPropertiesPropertiesTest {
 
   @Autowired private ServiceBusProperties serviceBusProperties;
 

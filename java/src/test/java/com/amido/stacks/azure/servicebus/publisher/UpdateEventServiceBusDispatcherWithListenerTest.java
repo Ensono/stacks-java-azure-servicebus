@@ -1,7 +1,8 @@
-package com.amido.stacks.core.azure.servicebus.publisher;
+package com.amido.stacks.azure.servicebus.publisher;
 
 import static org.assertj.core.api.BDDAssertions.then;
 
+import com.amido.stacks.azure.servicebus.publisher.UpdateEventServiceBusDispatcherWithListener;
 import com.amido.stacks.core.messaging.listen.DefaultEventListener;
 import com.azure.messaging.servicebus.ServiceBusMessage;
 import com.azure.messaging.servicebus.ServiceBusSenderAsyncClient;

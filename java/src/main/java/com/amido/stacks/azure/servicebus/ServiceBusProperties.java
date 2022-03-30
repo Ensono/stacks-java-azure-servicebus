@@ -1,4 +1,4 @@
-package com.amido.stacks.core.azure.servicebus;
+package com.amido.stacks.azure.servicebus;
 
 import javax.validation.constraints.NotEmpty;
 import lombok.Data;

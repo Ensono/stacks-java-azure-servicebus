@@ -35,7 +35,7 @@
     <dependency>
       <groupId>com.amido.stacks.modules</groupId>
       <artifactId>stacks-azure</artifactId>
-      <version>1.0.2</version>
+      <version>1.0.3</version>
     </dependency>
 
     <!-- https://snyk.io/vuln/SNYK-JAVA-IONETTY-1584064 -->

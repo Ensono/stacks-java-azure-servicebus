@@ -16,7 +16,7 @@
   <description>Core Azure Service Bus components for the Java Stacks solution</description>
 
   <properties>
-    <com.amido.stacks-core-messaging.version>1.0.0</com.amido.stacks-core-messaging.version>
+    <com.amido.stacks-core-messaging.version>1.0.2</com.amido.stacks-core-messaging.version>
   </properties>
 
   <dependencies>
